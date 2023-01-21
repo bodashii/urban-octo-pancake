@@ -6,6 +6,7 @@
 
 body {
   background-color: #747171;
+  font-size: 18px;
 }
 
 main {
@@ -18,13 +19,24 @@ header {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
+  font-family: "Caveat", serif;
+}
+
+h2 {
+  font-size: 38px;
+  text-decoration: underline;
+}
+
+h3, h4 {
+  font-size: 36px;
 }
 
 header h1 {
-  font-size: 58px;
-  font-family: "Caveat", serif;
+  font-size: 72px;
+  
   /* border: 1px solid red; */
 }
 
@@ -85,10 +97,8 @@ section.container {
   box-shadow: none;
 }
 
-.carousel-button span {
-}
-
 footer {
   width: 100%;
   background-color: #747171;
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.4);
 }
